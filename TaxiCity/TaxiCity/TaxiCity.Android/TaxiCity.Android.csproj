@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{793E45A9-CA81-4D5E-A822-D244145AEFA4}</ProjectGuid>
+    <ProjectGuid>{702CC993-929C-493C-96F0-F2170351E417}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <TemplateGuid>{9AA2D3C6-3393-45F1-8E7C-5A9901728795}</TemplateGuid>
+    <TemplateGuid>{6968b3a4-1835-46a3-ac5c-1ae33b475983}</TemplateGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>TaxiCity.Droid</RootNamespace>
     <AssemblyName>TaxiCity.Android</AssemblyName>
@@ -99,9 +99,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TaxiCity\TaxiCity.csproj">
-      <Project>{42894A5F-462F-492A-9A9D-39F11D8A386C}</Project>
+      <Project>{786611ED-9B2E-4862-AD51-54E1B96BBF35}</Project>
       <Name>TaxiCity</Name>
     </ProjectReference>
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+ <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

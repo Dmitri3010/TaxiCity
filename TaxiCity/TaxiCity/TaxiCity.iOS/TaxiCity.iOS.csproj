@@ -5,9 +5,9 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{44A301C1-3FA1-4B51-963F-2CDAC3938078}</ProjectGuid>
+    <ProjectGuid>{18293894-DD2D-4127-A95C-17CCC59B3659}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <TemplateGuid>{65C0771A-452F-423B-995C-F0AE46E643BA}</TemplateGuid>
+    <TemplateGuid>{89a4fe7c-635d-49c9-8d8c-5cd363c0d68d}</TemplateGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>TaxiCity.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
@@ -139,7 +139,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\TaxiCity\TaxiCity.csproj">
-      <Project>{42894A5F-462F-492A-9A9D-39F11D8A386C}</Project>
+      <Project>{786611ED-9B2E-4862-AD51-54E1B96BBF35}</Project>
       <Name>TaxiCity</Name>
     </ProjectReference>
   </ItemGroup>
