@@ -18,8 +18,8 @@ namespace TaxiCity.Views
 
             Item = new Item
             {
-                Text = "Item name",
-                Description = "This is an item description."
+                Text = "Название",
+                Description = "Адрес"
             };
 
             BindingContext = this;

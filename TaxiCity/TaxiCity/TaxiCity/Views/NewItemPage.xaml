@@ -11,9 +11,9 @@
     
     <ContentPage.Content>
         <StackLayout Spacing="20" Padding="15">
-            <Label Text="Text" FontSize="Medium" />
+            <Label Text="Название" FontSize="Medium" />
             <Entry Text="{Binding Item.Text}" FontSize="Small" />
-            <Label Text="Description" FontSize="Medium" />
+            <Label Text="Описание" FontSize="Medium" />
             <Editor Text="{Binding Item.Description}" FontSize="Small" Margin="0" />
         </StackLayout>
     </ContentPage.Content>

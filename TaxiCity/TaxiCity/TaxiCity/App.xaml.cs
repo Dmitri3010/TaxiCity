@@ -14,7 +14,7 @@ namespace TaxiCity
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new SplashPage());
         }
 
         protected override void OnStart()

@@ -15,6 +15,8 @@ namespace TaxiCity.Views
         public Map()
         {
             InitializeComponent();
+          //  NavigationPage.SetHasNavigationBar(this, false);
+
         }
     }
 }

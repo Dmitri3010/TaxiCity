@@ -10,6 +10,8 @@ namespace TaxiCity.Views
         public AboutPage()
         {
             InitializeComponent();
+           // NavigationPage.SetHasNavigationBar(this, false);
+
         }
     }
 }

@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TaxiCity.Views.ItemsPage"
-              Title="Мои адреса"
-             x:Name="BrowseItemsPage">
+             x:Class="TaxiCity.Views.AboutPage"
+             xmlns:vm="clr-namespace:TaxiCity.ViewModels"
+             Title="Заказы">
 
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Добавить" Clicked="AddItem_Clicked" />
-    </ContentPage.ToolbarItems>
+
 
     <StackLayout>
         <ListView x:Name="ItemsListView"
@@ -17,8 +15,7 @@
                 RefreshCommand="{Binding LoadItemsCommand}"
                 IsPullToRefreshEnabled="true"
                 IsRefreshing="{Binding IsBusy, Mode=OneWay}"
-                CachingStrategy="RecycleElement"
-                ItemSelected="OnItemSelected">
+                CachingStrategy="RecycleElement">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -37,5 +34,5 @@
             </ListView.ItemTemplate>
         </ListView>
     </StackLayout>
-    
+
 </ContentPage>
