@@ -16,7 +16,7 @@ namespace TaxiCity.Views
             var sub = new AbsoluteLayout();
             splashImage = new Image
             {
-                Source = "splash.png",
+                Source = "start.png",
                 WidthRequest = 100,
                 HeightRequest = 100
             };
@@ -39,7 +39,7 @@ namespace TaxiCity.Views
             await splashImage.ScaleTo(1, 2000); //Time-consuming processes such as initialization
             await splashImage.ScaleTo(0.9, 1500, Easing.Linear);
             await splashImage.ScaleTo(150, 1200, Easing.Linear);
-            Application.Current.MainPage = new Map();    //After loading  MainPage it gets Navigated to our new Page
+            Application.Current.MainPage = new MainPage();    //After loading  MainPage it gets Navigated to our new Page
         }
     }
 }
